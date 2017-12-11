@@ -1,4 +1,4 @@
-Heroku buildpack: FreeTDS
+Heroku buildpack: FreeTDS version 0.95.84
 =======================
 
 A Heroku Buildpack created to install [FreeTDS](http://www.freetds.org/) in your project. Allows for usage of [TinyTDS](https://github.com/rails-sqlserver/tiny_tds) on Heroku and was used succesfully to connect to a MS SQL Server 2005 database.
@@ -34,3 +34,8 @@ Para confirmar, pode executar
     $ heroku buildpacks
     
 E verificar a posição em que este buildpack será executado (deve ser antes do buildpack ruby)
+
+To Do
+-----
+
+Update version of FreeTDS and test
